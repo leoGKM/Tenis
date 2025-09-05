@@ -24,3 +24,9 @@ it("Ventaja A", () => {
   g.pointsA = 4; g.pointsB = 3;
   expect(g.getScore()).toBe("Ventaja A");
 });
+
+it("A gana el game", () => {
+  const g = new TennisGame("A", "B");
+  g.pointsA = 4; g.pointsB = 2;
+  expect(g.getScore()).toBe("Game A");
+});
