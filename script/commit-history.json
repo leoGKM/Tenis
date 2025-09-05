@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ffdc0600e96a792b4502b0b97fd0219c831c5983",
     "author": "Leonardo Koller",
     "commit": {
       "date": "2025-09-05T04:41:49.000Z",
       "message": "Muestra marcadores de 1-0 (15-Love)",
-      "url": "https://github.com/leoGKM/Tenis/commit/HEAD"
+      "url": "https://github.com/leoGKM/Tenis/commit/ffdc0600e96a792b4502b0b97fd0219c831c5983"
     },
     "stats": {
       "total": 15,
@@ -34,6 +34,25 @@
     },
     "coverage": 90,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Leonardo Koller",
+    "commit": {
+      "date": "2025-09-05T04:43:42.000Z",
+      "message": "Muestra marcadores de Deuce",
+      "url": "https://github.com/leoGKM/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-09-05"
+    },
+    "coverage": 91.67,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

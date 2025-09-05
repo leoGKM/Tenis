@@ -14,6 +14,9 @@ export class TennisGame {
   }
 
   getScore() {
-    return `${POINTS[this.pointsA]} - ${POINTS[this.pointsB]}`;
+    if (this.pointsA >= 3 && this.pointsB >= 3 && this.pointsA === this.pointsB) {
+    return "Deuce";
+  }
+  return `${POINTS[this.pointsA]} - ${POINTS[this.pointsB]}`;
   }
 }
