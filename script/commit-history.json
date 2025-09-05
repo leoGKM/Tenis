@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc9d31ba1754c2812a89eee13b29c33d4ccffa61",
     "author": "Leonardo Koller",
     "commit": {
       "date": "2025-09-05T04:47:26.000Z",
       "message": "Muestra marcadores cuando un jugador gana el game",
-      "url": "https://github.com/leoGKM/Tenis/commit/HEAD"
+      "url": "https://github.com/leoGKM/Tenis/commit/cc9d31ba1754c2812a89eee13b29c33d4ccffa61"
     },
     "stats": {
       "total": 14,
       "additions": 13,
       "deletions": 1,
+      "date": "2025-09-05"
+    },
+    "coverage": 84.21,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Leonardo Koller",
+    "commit": {
+      "date": "2025-09-05T04:51:25.000Z",
+      "message": "Se añadio Front y llamados a las funciones en presenter.js",
+      "url": "https://github.com/leoGKM/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 17,
+      "deletions": 22,
       "date": "2025-09-05"
     },
     "coverage": 84.21,

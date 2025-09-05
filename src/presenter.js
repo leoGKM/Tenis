@@ -1,15 +1,15 @@
-import sumar from "./sumador";
+import { TennisGame } from "./puntaje.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const marcador = document.getElementById("marcador");
+const btnA = document.getElementById("btnA");
+const btnB = document.getElementById("btnB");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+const game = new TennisGame("A", "B");
+render();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+btnA.onclick = () => { game.pointWonBy("A"); render(); };
+btnB.onclick = () => { game.pointWonBy("B"); render(); };
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-});
+function render() {
+  marcador.textContent = game.getScore();
+}
