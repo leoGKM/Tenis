@@ -1,3 +1,5 @@
+const POINTS = ["Love", "15", "30", "40"];
+
 export class TennisGame {
   constructor(playerA, playerB) {
     this.playerA = playerA;
@@ -6,7 +8,12 @@ export class TennisGame {
     this.pointsB = 0;
   }
 
+  pointWonBy(player) {
+    if (player === "A") this.pointsA++;
+    if (player === "B") this.pointsB++;
+  }
+
   getScore() {
-    return "Love - Love";
+    return `${POINTS[this.pointsA]} - ${POINTS[this.pointsB]}`;
   }
 }

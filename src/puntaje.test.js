@@ -6,3 +6,9 @@ describe("Marcador de tenis", () => {
     expect(game.getScore()).toBe("Love - Love");
   });
 })
+
+it("jugador A gana un punto: 15 - Love", () => {
+  const game = new TennisGame("A", "B");
+  game.pointWonBy("A");
+  expect(game.getScore()).toBe("15 - Love");
+});

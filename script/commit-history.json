@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "d5d00ce5ee244155a7ca037e8bca66cee2adb8dc",
     "author": "Leonardo Koller",
     "commit": {
       "date": "2025-09-05T04:35:54.000Z",
       "message": "Muestra Love-Love",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/d5d00ce5ee244155a7ca037e8bca66cee2adb8dc"
     },
     "stats": {
       "total": 36,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Leonardo Koller",
+    "commit": {
+      "date": "2025-09-05T04:41:49.000Z",
+      "message": "Muestra marcadores de 1-0 (15-Love)",
+      "url": "https://github.com/leoGKM/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2025-09-05"
+    },
+    "coverage": 90,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
