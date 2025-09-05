@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Leonardo Koller",
+    "commit": {
+      "date": "2025-09-05T04:35:54.000Z",
+      "message": "Muestra Love-Love",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 21,
+      "deletions": 15,
+      "date": "2025-09-05"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
