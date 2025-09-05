@@ -18,3 +18,9 @@ it("40 - 40 es Deuce", () => {
   g.pointsA = 3; g.pointsB = 3;
   expect(g.getScore()).toBe("Deuce");
 });
+
+it("Ventaja A", () => {
+  const g = new TennisGame("A", "B");
+  g.pointsA = 4; g.pointsB = 3;
+  expect(g.getScore()).toBe("Ventaja A");
+});
